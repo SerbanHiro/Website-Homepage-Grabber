@@ -1,5 +1,4 @@
 # Contributor Covenant Code of Conduct
-# SerbanHiro
 
 ## Our Pledge
 
