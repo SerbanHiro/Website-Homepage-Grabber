@@ -8,12 +8,13 @@ using namespace std;
 int main()
 {
     // Read website url
-    const wchar_t* website_url_L;
+    //const wchar_t* website_url_L; ==> v1.0.0
+
     string website_url;
     string httpswebsite;
     wstring website_wide_L;
     cout << "Website Url: ";
-    cin >> website_url;
+    cin >> website_url; cin.ignore();
     string check_if_site_has_https;
     check_if_site_has_https.append(website_url, 0,8);
 
@@ -24,38 +25,55 @@ int main()
     // https:// check
 
     website_wide_L.assign(httpswebsite.begin(), httpswebsite.end());
-    website_url_L = website_wide_L.c_str();
+
+    // website_url_L = website_wide_L.c_str(); ==> v1.0.0
     // Read website url
 
     // Folder Name + Save the source code from the website home page
-    const wchar_t* destination_file;
+    // const wchar_t* destination_file; ==> v1.0.0
+
     string folder_init; // folder initialize
     string folder_fin; // folder finalize
     wstring file;
     cout << "Folder Name: ";
-    cin >> folder_init;
+    cin >> folder_init; cin.ignore();
     folder_fin = folder_init + ".txt";
     file.assign(folder_fin.begin(), folder_fin.end());
 
-    destination_file = file.c_str(); 
+    // destination_file = file.c_str(); ==> v1.0.0
     // Folder Name + Save the source code from the website home page
 
     // URLDownloadToFile function
-    if (S_OK == URLDownloadToFile(NULL, website_url_L, destination_file, 0, NULL))
+    if (S_OK == URLDownloadToFile(NULL, website_wide_L.c_str(),file.c_str(), 0, NULL))
     {
         cout << "Source Code saved in the same " << folder_init<<".txt\n";
-        return 0;
+
+        // v1.0.0
+        // destination_file = NULL; ==> v1.0.0
+        // website_url_L = NULL; ==> v1.0.0
+        // v1.0.0
+        
     }
     else if(E_OUTOFMEMORY==0)
     {
         cout << "Out of memory\n";
-        return 0;
     }
     else 
     {
         cout << "Invalid Website\n";
-        return 0;
     }
+    cout << "\nWould you like to continue?\nChoose from y/n\n";
+    string options;
+    cin >> options;
+    if (options == "y") {
+        cout << "\n";
+        website_url = "";
+        folder_init = "";
+        return main();
+    }
+    else if (options == "n")
+        return EXIT_SUCCESS;
+    else return EXIT_FAILURE;
 }
 /*
 REQUIREMENTS
