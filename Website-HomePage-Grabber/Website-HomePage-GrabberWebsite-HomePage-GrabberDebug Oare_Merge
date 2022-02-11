@@ -1,0 +1,329 @@
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mistyc Network | Portal</title>
+    <meta name=" Comunitate europeana de gaming! " content=" mistyc.ro (c) 2022">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/styleindex.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+    </head>
+    <body class="ro">
+    <div class="nav-bar">
+    <center><ul>
+    <!-- Meniu EN -->    
+    <a href="https://mistyc.ro/" title="Home"><li class="nav-menu" lang="en"><i class="fas fa-home"></i></li></a>
+    <a href="https://forum.mistyc.ro/" title="Forums"><li class="nav-menu" lang="en"><i class="fas fa-tv"></i></li></a>
+    <a href="https://vote.mistyc.ro/" title="Votes"><li class="nav-menu" lang="en"><i class="fas fa-vote-yea"></i></li></a>
+    <a href="https://store.mistyc.ro/" title="Store"><li class="nav-menu" lang="en"><i class="fas fa-shopping-cart"></i></li></a>
+    <a href="https://regulament.mistyc.ro/" title="Rules"><li class="nav-menu" lang="en"><i class="fas fa-info"></i></li></a>
+    <a href="https://apply.mistyc.ro/" title="Apply"><li class="nav-menu" lang="en"><i class="fas fa-receipt"></i></li></a>
+    <a href="https://bans.mistyc.ro/" title="Punishments"><li class="nav-menu" lang="en"><i class="fas fa-ban"></i></li></a>
+    <!-- Meniu RO --> 
+    <a href="https://mistyc.ro/" title="Acasa"><li class="nav-menu" lang="ro"><i class="fas fa-home"></i></li></a>
+    <a href="https://forum.mistyc.ro/" title="Forum"><li class="nav-menu" lang="ro"><i class="fas fa-tv"></i></li></a>
+    <a href="https://vote.mistyc.ro/" title="Vote"><li class="nav-menu" lang="ro"><i class="fas fa-vote-yea"></i></li></a>
+    <a href="https://store.mistyc.ro/" title="Shop"><li class="nav-menu" lang="ro"><i class="fas fa-shopping-cart"></i></li></a>
+    <a href="https://regulament.mistyc.ro/" title="Regulament"><li class="nav-menu" lang="ro"><i class="fas fa-info"></i></li></a>
+    <a href="https://apply.mistyc.ro/" title="Aplica"><li class="nav-menu" lang="ro"><i class="fas fa-receipt"></i></li></a>
+    <a href="https://bans.mistyc.ro/" title="Sanctiuni"><li class="nav-menu" lang="ro"><i class="fas fa-ban"></i></li></a>
+    <li class="nav-menu"><img src="imgs/en.png" style="width:40%;max-width:40px" onclick="document.body.className='en'"></li>
+    <li class="nav-menu"><img src="imgs/ro.png" style="width:40%;max-width:40px" onclick="document.body.className='ro'"></li>  
+    </ul></center>
+    </div>    
+    <div class="conteiner">   
+    <a rel="nofollow" href="#top"><div class="backtotop"><i class="material-icons">arrow_upward</i></div></a>    
+    <div class="banner">
+    <div class="lethiumimgov"></div>
+    <img class="bannerlogo" src="imgs/bannerlogocmistyc400x.png" />
+    <div class="sectionov0"></div>
+    </div>
+    <!-- moduri de joc  -->
+    <div class="container">
+    <div class="games-box">
+    <div class="games-box-1">
+	<h2 lang="en">GAME MODES</h2>
+	<h2 lang="ro">MODURI DE JOC</h2>
+	<div class="game">
+	<div>
+	<h3 lang="en">SURVIVAL</h3>
+	<h3 lang="ro">SUPRAVIEŢUIRE</h3>
+	<p lang="en">Welcome to the world of Minecraft! We are waiting for you on the sections: <b>Survival 1.16</b> and <b>Survival Hard</b>. Make friends with other players if you want to team up with them to have fun together.</p>
+	<p lang="ro">Bun venit in lumea Minecraft-ului! Va asteptam pe sectiunile: <b>Survival 1.16</b> si <b>Survival Hard</b>. Imprieteneste-te cu ceilalti playeri daca vrei sa faci team cu ei pentru a va distra impreuna.</p>
+	</div>
+	<img class="gimg" src="imgs/survival.png">
+	</div>
+	<hr>
+	<div class="game">
+	<div>
+	<h3>SKYONE</h3>
+	<p lang="en">We are waiting for you on the <b>SkyOne</b> section where you can start an island with limited resources. Compete with other players or join a team  to reach the top spot.</p>
+	<p lang="ro">Va asteptam pe sectiunea <b>SkyOne</b> unde poti sa iti pornesti o insula cu resurse limitate. Concureaza cu alti jucatori sau alatura-te ca sa ajungi pe primul loc in top.</p>
+	</div>
+	<img class="gimg" src="imgs/skyblock.png">
+	</div>
+	<hr>
+    <div class="game">
+	<div>
+	<h3 lang="en">MINIGAMES</h3>
+	<h3 lang="ro">MINIGAME-URI</h3>
+	<p lang="en">We are waiting for you on the sections: <b>BedWars</b> and <b>ArcadeGames</b>.</p>
+	<p lang="ro">Va asteptam pe sectiunile: <b>BedWars</b> si <b>ArcadeGames</b>.</p>
+	</div>
+	<img class="gimg" src="imgs/arcade.png">
+	</div>
+    </div>
+    </div>
+    <!-- server  -->
+    <div class="serverStats">
+    <div class="main-contentWrap">
+    <div class="svStatsWrap">
+    <div class="svStatsItem">
+	<div class="ssi-number ssiNum1" data-number="0"><span class="player-count">?</span></div> 
+    <div class="ssi-title" lang="en">ONLINE PLAYERS</div>
+    <div class="ssi-title" lang="ro">JUCATORI ONLINE</div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- staff  -->
+    <div class="staff">
+    <center><h3 style="text-transform: uppercase;font-weight: bold;color: #ffffff;font-size: 24px;margin: 0;" lang="en">Our team</h3></center>
+    <center><h style="text-transform: uppercase;font-weight: bold;color: #ffffff;font-size: 16px;margin: 0;" lang="en">When we are united, we are unstoppable!</h></center>    
+    <center><h3 style="text-transform: uppercase;font-weight: bold;color: #ffffff;font-size: 24px;margin: 0;" lang="ro">Echipa noastra</h3></center>
+    <center><h style="text-transform: uppercase;font-weight: bold;color: #ffffff;font-size: 16px;margin: 0;" lang="ro">Cand suntem uniti, suntem de neoprit!</h></center>
+    <br>
+    <div class="staff-team">
+    <div>
+    <h3>ThinkyBell</h3>
+    <div class="fondatoare">Fondatoare</div>
+    <img src="imgs/ThinkyBell.png">
+    </div>
+    <div>
+    <h3>PeteerPan</h3>
+    <div class="fondator">Fondator</div>
+    <img src="imgs/PeteerPan.png">
+    </div>
+    <div>
+    <h3>_theDark_</h3>
+    <div class="administrator">Administrator</div>
+    <img src="imgs/_theDark_.png">
+    </div>
+    <div>
+    <h3>20_Richardo_06</h3>
+    <div class="administrator">Administrator</div>
+    <img src="imgs/20_Richardo_06.png">
+    </div>
+    </div>
+    </div>
+<style>
+.staff-bg {
+	background: rgb(0, 23, 32);	
+	height: 100%;
+	width: 100%;
+	float: none;
+}
+.staff-team {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 0px auto 0px auto;
+}
+.staff {
+	padding: 40px 0;
+}
+.staff h2 {
+	margin-top: 0;
+}
+.staff-team > div {
+	padding: 15px;
+	margin: 5px;
+	background-color: #0c0c0cdb;
+	color: white;
+	text-align: center;
+	transition: all ease 0.3s;
+}
+.staff-team > div:hover {
+	transform: scale(1.1);
+}
+.staff-team img {
+	width: 200px;
+	margin-top: 20px;
+}
+.fondator {
+    background-color: #F72525;
+    padding: 12px;
+    border-radius: 10px 10px 10px 10px;
+}
+.fondatoare {
+    background-color: #B81CF8;
+    padding: 12px;
+    border-radius: 10px 10px 10px 10px;
+}
+.administrator {
+    background-color: #0025ff;
+    padding: 12px;
+    border-radius: 10px 10px 10px 10px;
+}
+.coordonator {
+    background-color: #db6969;
+    padding: 12px;
+    border-radius: 10px 10px 10px 10px;
+}
+.game {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 40px 50px;
+}
+.game div {
+	margin: 0 30px;
+	font-size: 1.15em;
+	line-height: 1.5em;
+}
+hr {
+	border: 0.5px solid #c49be1;
+	width: 70%;
+}
+.games-box {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 0px auto 0px auto;
+	width: 95%;
+}
+.games-box-1 {
+	padding: 40px 0;
+	border: 0.5px solid #9a5afb;
+}
+.games-box h2 {
+	margin-top: 0;
+}
+.games-box > div {
+	padding: 25px;
+	margin: 40px;
+	background-color: #161616;
+	color: white;
+	text-align: center;
+	transition: all ease 0.3s;
+}
+.gimg {
+	width: 40%;
+}
+a {
+    text-decoration: none;
+}
+.backtotop {
+    z-index: 10;
+    display: none;
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    right: 20px;
+    bottom: 20px;
+    transition: all 0.5s;
+}
+.backtotop.act {
+    display: block;
+}
+.serverStats {
+    position:relative;
+    width:100%;
+    background-image: url('imgs/minecraftfinal.png');
+    background-size:cover;
+    padding:120px 0
+    
+}
+.svStatsWrap {
+    display: -ms-flexbox;
+    display: block;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.ssi-number {
+    font-family:'Bungee',cursive;
+    font-size:65px;
+    text-align:center;
+    color:#6d00f9;
+    line-height:60px;
+    
+}
+.ssi-title {
+    font-size:20px;
+    text-transform:uppercase;
+    text-align:center;
+    font-weight:800;
+    letter-spacing:2px;
+    color:#ffffff;
+}
+body.ro :lang(en) {
+      display: none;
+}
+body.en :lang(ro) {
+      display: none;
+}
+</style>
+    <script>
+    document.onkeydown = function(e) {
+            if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+                alert('not allowed');
+            }
+            return false;
+    };
+	 $(document).keydown(function (event) {
+    if (event.keyCode == 123) { // Prevent F12
+        return false;
+    } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) { // Prevent Ctrl+Shift+I        
+        return false;
+    }
+    });
+    </script>
+    <script>
+    let server_ip = "play.mistyc.ro"
+    let server_port = "25565"
+    </script>
+    <script>
+    $.getJSON('https://api.minetools.eu/ping/' + server_ip + "/" + server_port, function (status) {
+        var jucatoriOnline = status.players.online;
+        $(".player-count").html(((jucatoriOnline = jucatoriOnline.toString().split("."))[0] = jucatoriOnline[0].replace(/\B(?=(\d{3})+(?!\d))/g, ","), jucatoriOnline.join(".")));
+    });
+    $("#copiazaIP").click(function () {
+    swal({
+      title: "Ai copiat ip-ul!",
+      text: "Vino pe serverul nostru si distreaza-te!",
+      icon: "success",
+      button: "Inchide",
+      timer: 150000
+    });
+    document.getElementById("server_ip").select(), document.execCommand("copy")
+    });
+    </script>
+    <div class="footerov"></div>
+    <div class="footer">
+    <div class="buttons-container">
+    <h1 class="git-footer" lang="en">Find us on</h1>
+    <h1 class="git-footer" lang="ro">Gasiti-ne pe</h1>
+    <br>
+    <center>
+    <a href="https://discord.mistyc.ro/"> <div class="socialicon"><i class="fab fa-discord"></i></div> </a>
+    <a href="https://instagram.mistyc.ro/"> <div class="socialicon"><i class="fab fa-instagram"></i></div> </a>
+    <a href="https://tiktok.mistyc.ro/"> <div class="socialicon"><i class="fab fa-tiktok"></i></div> </a>
+    </center>
+    </div>
+    </div>
+    <div class="copyright-container">
+    <p class="copyright-text">Mistyc Network - [v1.0 BETA] </p>
+    <p class="copyright-text" style="float: right; padding-right: 1.5em;">PeteerPan © 2022</p>
+    </div>
+    </div>
+    </div>
+</html>

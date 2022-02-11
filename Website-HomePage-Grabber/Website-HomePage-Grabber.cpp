@@ -5,7 +5,12 @@
 #pragma comment(lib, "Urlmon.lib")
 // Made in Visual Studio 2019
 using namespace std;
-int main()
+void file_location(const string file)
+{
+    size_t file_loc = file.find_last_of("\\");
+    cout<<"Saved in: "<<file.substr(0, file_loc)<<"\n";
+}
+int main(int argc,char *argv[])
 {
     // Read website url
     //const wchar_t* website_url_L; ==> v1.0.0
@@ -15,11 +20,19 @@ int main()
     wstring website_wide_L;
     cout << "Website Url: ";
     cin >> website_url; cin.ignore();
+    // verify if the site is real or not v1.0.1
+    size_t check_website_reality=website_url.find_last_of(".");
+    if (website_url.substr(0, check_website_reality) == website_url)
+    {
+        cout << "The website has been mistyped" << endl;
+        return EXIT_FAILURE;
+    }
+    // is the site real? v1.0.1
     string check_if_site_has_https;
     check_if_site_has_https.append(website_url, 0,8);
 
-    // https:// check
-    if (check_if_site_has_https == "https://")
+    // https:// and http:// check
+    if (check_if_site_has_https == "https://"||check_if_site_has_https == "http://")
         httpswebsite = website_url;
     else httpswebsite ="https://" + website_url;
     // https:// check
@@ -46,17 +59,18 @@ int main()
     // URLDownloadToFile function
     if (S_OK == URLDownloadToFile(NULL, website_wide_L.c_str(),file.c_str(), 0, NULL))
     {
-        cout << "Source Code saved in the same " << folder_init<<".txt\n";
+        cout << "Source Code saved in the same " << folder_init << ".txt\n";
+        file_location(argv[0]);
 
         // v1.0.0
         // destination_file = NULL; ==> v1.0.0
         // website_url_L = NULL; ==> v1.0.0
         // v1.0.0
-        
     }
-    else if(E_OUTOFMEMORY==0)
+    else if(SUCCEEDED(E_OUTOFMEMORY))
     {
         cout << "Out of memory\n";
+        return EXIT_FAILURE;
     }
     else 
     {
@@ -66,10 +80,10 @@ int main()
     string options;
     cin >> options;
     if (options == "y") {
-        cout << "\n";
+        cout << endl;
         website_url = "";
         folder_init = "";
-        return main();
+        return main(argc,argv);
     }
     else if (options == "n")
         return EXIT_SUCCESS;
